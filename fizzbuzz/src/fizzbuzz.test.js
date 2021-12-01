@@ -4,6 +4,10 @@ test("test value number", () => {
   expect(fizzbuzz()[0]).toEqual(1);
 });
 
+test("test 100 elemnts", () => {
+  expect(fizzbuzz().length).toEqual(100);
+});
+
 test("test Fizz", () => {
   expect(fizzbuzz()[2]).toEqual("Fizz");
 });
